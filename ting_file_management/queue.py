@@ -1,7 +1,7 @@
 class Queue:
     def __init__(self):
         self._queue = list()
-    
+
     def __len__(self):
         return len(self._queue)
 
